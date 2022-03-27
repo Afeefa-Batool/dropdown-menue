@@ -1,0 +1,147 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+.background-banner{
+background-image: url(800px_COLOURBOX12183687.jpg);
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center top;
+}
+.menue-header{
+   
+       padding:20px 50px;
+}
+.menue-box{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #F44D83;
+    background-color:#F44D83;
+    padding-top: 20px;
+    border-radius: 10px;
+   
+}
+.menue-logo{
+    height: 60px;
+    width: 10%;
+    padding: 20px 30px;
+    margin:0 40px;
+    float: left;
+    
+}
+.menue-logo p{
+    color: white;
+    font-size: 20px;
+}
+.menue-navbar{
+    height: 60px;
+    width: 70%;
+    position: relative;
+    
+}
+.menue-navbar i{
+
+    color: white;
+  }
+  
+
+.background-banner ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 0 36px;
+    font-size:20px;
+}
+.background-banner ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+.background-banner ul li a:hover{
+
+    color: lawngreen;
+}
+/* navbar is completed */
+
+
+.home-menue {
+  
+    position:absolute;
+    margin-top: 40px;
+    left: 0;
+    width: 190px;
+    background-color:#BB8DCD;
+    text-transform: capitalize;
+    border-top: 5px solid black;
+   
+}
+
+.home-menue li{
+  
+     margin: 10px 20px;
+ }
+ .home-menue li a{
+     cursor: pointer;
+ }
+ 
+ .home-menue{
+    opacity: 0;
+}
+.home-menue:hover{
+    opacity:1;
+
+}
+/* home-menue started*/
+.service-menue{
+   
+    position:absolute;
+    margin-top: 40px;
+    left: 170px;
+    width: 190px;
+    background-color:#BB8DCD;
+    text-transform: capitalize;
+    border-top: 5px solid black;
+    
+}
+.service-menue li{
+  
+    margin: 10px 20px;
+ }
+ .service-menue li a{
+ cursor: pointer;
+   
+ }
+ 
+ .service-menue
+ {
+     opacity: 0;
+ }
+ .service-menue:hover
+ {
+     opacity: 1;
+ }
+ /* address-menue started */
+ .address-menue{
+    position:absolute;
+    margin-top: 40px;
+    left: 750px;
+    width: 190px;
+    background-color:#BB8DCD;
+    text-transform: capitalize;
+    border-top: 5px solid black;
+ }
+ .address-menue li{
+    margin: 10px 20px;
+
+ }
+ .address-menue li a{
+    cursor:pointer;
+ }
+ .address-menue{
+    opacity:0;
+ }
+ .address-menue:hover{
+    opacity:1;
+ }
